@@ -4,66 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <title>Finance_Ledjer</title>
-    <link rel="stylesheet" href="
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./styles/styles.css" />
-  </head>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Finance_Ledger</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">  
+    </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="header-logo"
-          ><span class="logo-span">Finance</span> Ledger</a
-        >
+     <div class="container header-container"> 
+   <nav class="header-navigation">     
+    <a href="./index.html" class="header-logo"><span class="logo-span">Finance</span> Ledger</a>
         <ul class="header-menu">
-          <il class="header-menu-list"
-            ><a href="./index.html" class="header-menu-link link">Home</a></il
-          >
-          <il class="header-menu-list"
-            ><a href="" class="header-menu-link link">About</a></il
-          >
-          <il class="header-menu-list"
-            ><a href="" class="header-menu-link link">Cases</a></il
-          >
-          <il class="header-menu-list"
-            ><a href="" class="header-menu-link link">Blog</a></il
-          >
-          <il class="header-menu-list"
-            ><a href="" class="header-menu-link link">Contact</a></il
-          >
+          <li class="header-menu-list"
+            ><a href="./index.html" class="header-menu-link link">Home</a></li>
+          <li class="header-menu-list"
+            ><a href="" class="header-menu-link link">About</a></li>
+          <li class="header-menu-list"
+            ><a href="" class="header-menu-link link">Cases</a></li>
+          <li class="header-menu-list"
+            ><a href="" class="header-menu-link link">Blog</a></li>
+          <li class="header-menu-list"
+            ><a href="" class="header-menu-link link">Contact</a></li>
         </ul>
       </nav>
+     </div>
     </header>
     <main>
       <!--------------------- HERO SECTION --------------------->
       <section class="hero">
-        <div class="hero-container">
+        <div class="container hero-container">
           <h1 class="hero-title">The sky is the limit</h1>
           <p class="hero-text">We provide world class financial assistance</p>
-          <button type="button" class="hero-button">Read more</button>
+          <a href="" class="hero-link">Read more</a>
+          <!-- <button type="button" class="hero-button">Read more</button> -->
         </div>
       </section>
 
       <!--------------------- BENEFITS --------------------->
 
       <section class="benefits">
-        <h2 class="visually-hidden">Benefits</h2>
+ <div class="container benefits-container">       
+  <h2 class="visually-hidden">Benefits</h2>
         <ul class="benefits-list">
           <li class="benefits-item">
-                          <h3 class="benefits-title">Investmant Banking</h3>
+            <h3 class="benefits-title">Investmant Banking</h3>
               <p class="benefits-text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Consequatur, necessitatibus!
@@ -71,8 +57,7 @@
             </a>
           </li>
           <li class="benefits-item">
-            
-              <h3 class="benefits-title">Portfolio Manager</h3>
+            <h3 class="benefits-title">Portfolio Manager</h3>
               <p class="benefits-text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Consequatur, necessitatibus!
@@ -80,8 +65,7 @@
             </a>
           </li>
           <li class="benefits-item">
-            
-              <h3 class="benefits-title">Tax & Custudio</h3>
+            <h3 class="benefits-title">Tax & Custudio</h3>
               <p class="benefits-text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Consequatur, necessitatibus!
@@ -89,35 +73,43 @@
             </a>
           </li>
         </ul>
+      </div>
       </section>
       <!--------------------- SOLUTIONS --------------------->
-      <section>
-        <img
+      <section class="solutions">
+<div class="solutions-container container">
+          <img
           src="./images/team-1.jpg"
           alt="Team of 6 people"
           width="680px"
           height="460px"
         />
-        <h3>What you are looking for</h3>
-        <h2>We provide bespoke solutions</h2>
-        <p>
+<div class="solutions-content">
+  <h3 class="solutions-subtitle">What you are looking for</h3>
+        <h2 class="solutions-title">We provide bespoke solutions</h2>
+        <p class="solutions-text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
           ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
           illum dolore explicabo ab dolores itaque rerum temporibus doloribus
           iste maiores deleniti?
         </p>
-        <button type="button">Read More</button>
+<a href="" class="solutions-link">Read More</a>
+        
+</div>
+        <!-- <button type="button" class="solutions-button">Read More</button> -->
+</div>
       </section>
       <!--------------------- CASES --------------------->
-      <section>
-        <h3>This is what we do</h3>
-        <h2>Business Cases</h2>
-        <p>
+      <section class="cases">
+        <div class="cases-container container">
+          <h3 class="cases-subtitle">This is what we do</h3>
+        <h2 class="cases-title">Business Cases</h2>
+        <p class="cases-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           sapiente!
         </p>
-        <ul>
-          <li>
+        <ul class="cases-list">
+          <li class="cases-item">
             <img
               src="./images/img-1.jpg"
               alt="Discussing people"
@@ -125,7 +117,7 @@
               height="214px"
             />
           </li>
-          <li>
+          <li class="cases-item">
             <img
               src="./images/img-2.jpg"
               alt="Working process"
@@ -133,7 +125,7 @@
               height="214px"
             />
           </li>
-          <li>
+          <li class="cases-item">
             <img
               src="./images/img-3.jpg"
               alt="Handshaking"
@@ -141,7 +133,7 @@
               height="214px"
             />
           </li>
-          <li>
+          <li class="cases-item">
             <img
               src="./images/img-4.jpg"
               alt="One Team"
@@ -149,7 +141,7 @@
               height="214px"
             />
           </li>
-          <li>
+          <li class="cases-item">
             <img
               src="./images/img-5.jpg"
               alt="Working Place"
@@ -157,7 +149,7 @@
               height="214px"
             />
           </li>
-          <li>
+          <li class="cases-item">
             <img
               src="./images/img-6.jpg"
               alt="Skyscrapers"
@@ -165,7 +157,7 @@
               height="214px"
             />
           </li>
-          <li>
+          <li class="cases-item">
             <img
               src="./images/img-7.jpg"
               alt="Working People"
@@ -173,7 +165,7 @@
               height="214px"
             />
           </li>
-          <li>
+          <li class="cases-item">
             <img
               src="./images/img-8.jpg"
               alt="Happy Working People"
@@ -182,62 +174,75 @@
             />
           </li>
         </ul>
+        </div>
       </section>
       <!--------------------- BLOG --------------------->
-      <h3>April 16 2020</h3>
-      <h2>Blog Post One</h2>
-      <p>
+
+      <section class="blog">
+        <div class="blog-container container">
+            <div class="blog-content">
+                    <h3 class="blog-subtitle">April 16 2020</h3>
+      <h2 class="blog-title">Blog Post One</h2>
+      <p class="blog-text">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
         ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
         illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste
         maiores deleniti?
       </p>
-      <button type="button">Read Our Blog</button>
+      <a href="" class="blog-link">Read Our Blog</a>
+            </div>
+      <!-- <button type="button">Read Our Blog</button> -->
       <img
         src="./images/img-9.jpg"
         alt="Tablet and Coffee"
         width="680px"
         height="517px"
       />
+        </div>
+      </section>
       <!--------------------- TEAM --------------------->
-      <h3>Who we are</h3>
-      <h2>Our Professional Team</h2>
-      <p>
+     <section class="team">
+      <div class="team-container container">
+         <h3 class="team-subtitle">Who we are</h3>
+      <h2 class="team-title">Our Professional Team</h2>
+      <p class="team-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
         sapiente!
       </p>
-      <ul>
-        <li>
+      <ul class="team-list">
+        <li class="team-item">
           <img
             src="./images/team-2.jpg"
             alt="John Doe`s photo"
             width="420px"
             height="280px"
           />
-          <h3>John Doe</h3>
-          <p>President</p>
+          <h3 class="team-item-title">John Doe</h3>
+          <p class="team-item-text">President</p>
         </li>
-        <li>
+        <li class="team-item">
           <img
             src="./images/team-3.jpg"
             alt="Jane Doe`s photo"
             width="420px"
             height="280px"
           />
-          <h3>Jane Doe</h3>
-          <p>Vice President</p>
+          <h3 class="team-item-title">Jane Doe</h3>
+          <p class="team-item-text">Vice President</p>
         </li>
-        <li>
+        <li class="team-item">
           <img
             src="./images/team-4.jpg"
             alt="Steve Smith`s photo"
             width="420px"
             height="280px"
           />
-          <h3>Steve Smith</h3>
-          <p>Marketing Head</p>
+          <h3 class="team-item-title">Steve Smith</h3>
+          <p class="team-item-text">Marketing Head</p>
         </li>
       </ul>
+      </div>
+     </section>
       <!--------------------- CALLBACK --------------------->
       <img
         src="./images/img-10.jpg"

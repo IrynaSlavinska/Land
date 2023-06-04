@@ -3,8 +3,7 @@
   --light-text-color: #ffffff;
   --dark-text-color: #333333;
   --hero-color: #e9e9e9;
-  --background-color-first: #f4f4f4;
-  --background-color-second: #f4f4f4;
+  --background-color: #f4f4f4;
   --blog-color: #0284d0;
   --callback-color: #808080;
 }
@@ -14,6 +13,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  background-color: var(--background-color);
 }
 h1,
 h2,
@@ -59,31 +59,108 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.link {
+  text-decoration: none;
+}
 /* ================= HEADER ================ */
 .header {
+  background-color: var(--dark-text-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hero-container {
 }
 .header-nav {
+  display: flex;
 }
 .header-logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--light-text-color);
+  margin-left: 100px;
 }
 .logo-span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--akcent-color);
 }
 .header-menu {
+  display: flex;
+  margin-left: auto;
+  margin-right: 46px;
+  gap: 40px;
+  align-items: center;
 }
 .header-menu-list {
 }
 .header-menu-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--light-text-color);
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--akcent-color);
 }
 /* ================= HERO ================ */
 .hero {
+  background-color: var(--dark-text-color);
+  padding-top: 210px;
+  padding-bottom: 285px;
 }
 .hero-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--hero-color);
+  text-transform: capitalize;
+  margin-bottom: 25px;
 }
 .hero-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+  color: var(--hero-color);
+  margin-bottom: 30px;
 }
 .hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--light-text-color);
+  background-color: var(--akcent-color);
+  padding: 10px 35px;
+  border-radius: 5px;
 }
 /* ================= BENEFITS ================ */
+.benefits {
+}
+.visually-hidden {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+}
+.benefits-text {
+}
 /* ================= SOLUTIONS ================ */
 /* ================= CASES ================ */
 /* ================= BLOG ================ */
